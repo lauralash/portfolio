@@ -1,0 +1,118 @@
+/* -------css------- */
+
+/* style*/
+
+body {
+  background: linear-gradient(to bottom, #75529d 0%,#7bd6d9 100%);
+}
+
+header {
+	height: auto;
+}
+
+.logo {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0 0;
+}
+
+footer {
+	background-color: #75529d;
+	
+}
+
+section {
+	padding: 0 25%;
+  margin: 50px 0;
+}
+
+/* -------  fonts ------- */
+
+header h1 {
+  font-family: 'Nanum Pen Script', cursive;
+  color: rgb(8, 13, 17);
+  margin: auto;
+  padding-top: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+header h2 {
+  font-family: 'Nanum Pen Script', cursive;
+  color:black;
+  margin: 0%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h3 {
+  color:black;
+  font-family: 'Nanum Pen Script', cursive;
+  margin: 3%;
+  font-size: 28px;
+  }
+
+
+p, li, {
+  color: black;
+  font-family: 'Nanum Pen Script', cursive;
+  margin: 1%;
+  font-size: 18px;
+}
+
+footer p {
+  color:black;
+  font-family: 'Nanum Pen Script', cursive;
+  text-align: center;
+  font-size: 22px;
+  
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+a:link { color: black }
+a:visited { color: darkorchid }
+a:hover { color: aliceblue; 
+text-decoration: underline;}
+a:active { color:  deeppink; }
+
+footer p {
+	color:  black;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* -------  Elements ------- */
+
+hr {
+  width: 420px;
+	height: 32px;
+	border: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+	background-image: url("images/divider.png");
+}
+
+img, iframe { 
+  width: 50%;	
+  height: 50%;
+  border-radius: 8px;
+  border: 1px solid #6e529d ;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 5px;
+} 
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid  aliceblue;
+}
+
